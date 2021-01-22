@@ -1,0 +1,48 @@
+section>h1 {
+  padding: 2px 3px;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+textarea {
+  padding: 2px;
+  border-width: 1px;
+  $width: calc(100% - 6px);
+  width: $width;
+  max-width: $width;
+  height: 150px;
+  font-family: monospace;
+  display: block;
+}
+
+textarea,
+section {
+  margin-bottom: 10px;
+}
+
+pre {
+  overflow: auto;
+  max-height: 200px;
+}
+
+pre,
+textarea {
+  font-size: 0.9em;
+}
+
+span.tip {
+  padding:20px 10px 0 0;
+  font-size:16px;
+}
+
+span.margin {
+  margin-left: 30px;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+.padding-left {
+  padding-left: 10px;
+}

@@ -1,0 +1,52 @@
+{
+   "id": "cnmarc-authority-810-generator",
+   "title": [
+      {
+         "lang": "en",
+         "text": "CNMARC Authority Generator"
+      },
+      {
+         "lang": "zh",
+         "text": "CNMARC规范字段生成器"
+      }
+   ],
+   "description": [
+      {
+         "lang": "en",
+         "text": "Copy specific values from bibliographic record to new authority record"
+      },
+      {
+         "lang": "zh",
+         "text": "拷贝编目特定内容自动创建新的规范记录"
+      }
+   ],
+   "subtitle": [
+      {
+         "lang": "en",
+         "text": "Copy specific values from bibliographic record to new authority record"
+      },
+      {
+         "lang": "zh",
+         "text": "拷贝编目特定内容自动创建新的规范记录"
+      }
+   ],
+   "author": "Ex Libris China",
+   "entities": [
+      "BIB_MMS"
+   ],
+   "icon": {
+      "type": "font",
+      "value": "fa fa-magic"
+   },
+   "fullscreen": {
+      "allow": true,
+      "open": false
+   },
+   "contentSecurity": {
+      "connectSrc": [],
+      "sandbox": {
+         "popups": true,
+         "modals": true
+      }
+   }
+}

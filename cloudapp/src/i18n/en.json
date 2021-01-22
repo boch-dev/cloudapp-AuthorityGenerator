@@ -1,0 +1,11 @@
+{
+  "i18n": {
+    "Title": "CNMARC Authority Record Generator",
+    "Save": "Update Field Content",
+    "FieldValue":"Authority record 810$a field value:",
+    "UpdateSuccess": "Field value updated!",
+    "UpdateConfirm": "810$a has content,do you want to update it?",
+    "NoBibTip":"Please navigate to a CNMARC/UNIMARC bibliographic record.",
+    "NoAuthorityRecord": "No Editing Authority Record Found!"
+  }
+}

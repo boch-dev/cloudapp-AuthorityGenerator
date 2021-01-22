@@ -1,0 +1,11 @@
+{
+  "i18n": {
+    "Title": "CNMARC规范字段生成器",
+    "UpdateSuccess": "更新成功!",
+    "UpdateConfirm":"810$a已有内容，确认要更新吗?",
+    "FieldValue":"规范记录的810$a字段内容:",
+    "Save": "更新字段内容",
+    "NoBibTip":"请导航到一条CNMARC记录并新建规范记录",
+    "NoAuthorityRecord": "没有找到编辑中的规范记录!"
+  }
+}

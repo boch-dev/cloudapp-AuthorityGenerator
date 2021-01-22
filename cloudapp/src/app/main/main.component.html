@@ -1,0 +1,14 @@
+<div *ngIf="bib; else nobib">
+  <div class="eca-actions">
+    <button mat-flat-button type="button" color="primary" (click)="updateFieldContent()">{{'i18n.Save'|translate}}</button>
+  </div>
+  <h2 translate>i18n.FieldValue</h2>
+  <div class="padding-left"><h1 class="bold">{{subField810a}}</h1></div>
+  <p>[{{bib.mms_id}} - {{bib.title}}]</p>
+</div>
+<ng-template #nobib>
+  <h1 class="tip" translate>i18n.NoBibTip</h1>
+</ng-template>
+<div class="loading-shade" *ngIf="running">
+  <mat-spinner diameter="50"></mat-spinner>
+</div>
